@@ -2,7 +2,7 @@
 #include <random>
 #include <ctime>
 
-/*int intro() 
+/*int intro()
 {
     std::cout
         << "  _____              _     _                                 _   _     _             " << std::endl
@@ -28,8 +28,8 @@ char intro(char a, int c, int d)
     // setup user imput variable
     std::cout << "Welcome to Double or Nothing!" << std::endl << std::endl;
     std::cout << "You have " << c << "$." << std::endl
-                << "The roll to beat is " << d << "." << std::endl 
-                << "do you want to roll the dice ? (y/n)" << std::endl << ">";
+        << "The roll to beat is " << d << "." << std::endl
+        << "do you want to roll the dice ? (y/n)" << std::endl << ">";
     std::cin >> x;
     std::cout << std::endl;
 
@@ -38,18 +38,18 @@ char intro(char a, int c, int d)
         std::cout << "Alright, farwell..." << std::endl;
     }
     // !!! PROGRAM SOFTLOCK MAYBE DO SOMETHING ELSE? Works as intendeed though
-    else 
+    else
     {
         return 'b';
-    // switch to case b
+        // switch to case b
     };
 }
 
-char rollTheDice(int &roll, int rollToBeat) 
+char rollTheDice(int& roll, int rollToBeat)
 // CASE B
 {
-    int x = (rand()% 6) + 1;
-    int y = (rand()% 6) + 1;
+    int x = (rand() % 6) + 1;
+    int y = (rand() % 6) + 1;
     roll = x + y;
 
     std::cout << "First dice : " << x << std::endl;
@@ -60,7 +60,7 @@ char rollTheDice(int &roll, int rollToBeat)
     return roll;
 }
 
-char doubleOrNothing(int roll, int &rollToBeat, int &money)
+char doubleOrNothing(int roll, int& rollToBeat, int& money)
 // CASE C
 {
     if (roll >= rollToBeat)
@@ -78,7 +78,7 @@ char rollWin(int money, int rollToBeat)
 // CASE D
 {
     std::cout << "YOU WON !" << std::endl;
-    std::cout << "The roll to beat got increased by 1. ("<< rollToBeat<< ")" << std::endl << std::endl;
+    std::cout << "The roll to beat got increased by 1. (" << rollToBeat << ")" << std::endl << std::endl;
     return 'f';
 }
 
@@ -106,7 +106,7 @@ char playAgain(int money)
     {
         return 'b';
     }
-    else if (x == 'n') 
+    else if (x == 'n')
     {
         return 'd';
     }
@@ -116,7 +116,7 @@ char playAgain(int money)
 // DEATHROLL ( CASE I -> _ )
 // /////////////////////////
 
-char deathrollStart(std::string& player1, std::string& player2, int bank, int &bet)
+char deathrollStart(std::string& player1, std::string& player2, int bank, int& bet)
 // CASE I
 {
     std::cout << "Who is player 1 ?" << std::endl << ">";
@@ -134,7 +134,7 @@ char deathrollStart(std::string& player1, std::string& player2, int bank, int &b
             std::cout << "You don't have this money";
             continue;
         }
-        else if (bet = 0) 
+        else if (bet = 0)
         {
             std::cout << "You can't bet nothing.";
             continue;
@@ -143,7 +143,7 @@ char deathrollStart(std::string& player1, std::string& player2, int bank, int &b
         {
             break;
         }
-        else if (bet =~ (int)bet)
+        else if (bet = ~(int)bet)
         {
             std::cout << "error";
             bet = NULL;
@@ -159,15 +159,15 @@ char deathrollStart(std::string& player1, std::string& player2, int bank, int &b
 
 char deathroll(std::string player1, std::string player2)
 {
-// CASE J
-    int x = (rand() %2);
+    // CASE J
+    int x = (rand() % 2);
     int deathroll = 100;
     int roll = 0;
     if (x == 0)
     {
         std::cout << "It's your turn to roll, " << player1 << ". (Type 'roll')" << std::endl << ">";
     }
-    else 
+    else
     {
         std::cout << "It's your turn to roll, " << player2 << ". (Type 'roll')" << std::endl << ">";
     }
@@ -185,6 +185,7 @@ char deathroll(std::string player1, std::string player2)
             }
         }
     }
+    return NULL;
 }
 
 // //////////////////////////////
@@ -228,7 +229,7 @@ int main()
     {
         switch (id)
         {
-/*---------Double or Nothing-------------*/
+            /*---------Double or Nothing-------------*/
         case 'a':
             id = intro(id, money, rollToBeat);
             break;
@@ -247,15 +248,15 @@ int main()
         case 'f':
             id = playAgain(money);
             break;
-/*-------------Deathroll--------------*/
+            /*-------------Deathroll--------------*/
         case 'i':
             id = deathrollStart(deathrollPlayerName1, deathrollPlayerName2, money, bet);
             break;
-/*---------menu and stuff-------------*/
+            /*---------menu and stuff-------------*/
         case 'z':
             id = startup();
         }
     }
-    
+
     return EXIT_SUCCESS;
 }
