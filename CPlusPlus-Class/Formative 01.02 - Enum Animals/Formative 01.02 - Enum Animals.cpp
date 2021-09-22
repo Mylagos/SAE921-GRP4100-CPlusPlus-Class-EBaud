@@ -1,20 +1,51 @@
-// Formative 01.02 - Enum Animals.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include <iostream>
+
+enum Animal
+{
+	Lion = 'l',
+	Sheep = 's',
+	Dog = 'd',
+	Bear = 'b',
+
+};
+
+std::string animalScream(Animal animal_)
+{
+	switch (animal_)
+	{
+	case Lion:
+		return "The lion goes ROAAAR!";
+		break;
+	case Sheep:
+		return "The sheep goes Beeeeh!";
+		break;
+	case Dog:
+		return "The dog goes Woof!";
+		break;
+	case Bear:
+		return "The bear goes Ruff!";
+		break;
+	default:
+		return "There is no such animal on record.";
+		break;
+	}
+	return NULL;
+}
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	bool a = true;
+	while (a == true)
+	{
+		char input = 'z';
+		std::cout << "Which animal do you want to hear the sceam of ?" << std::endl
+			<< "'l' Lion" << std::endl
+			<< "'s' Sheep" << std::endl
+			<< "'d' Dog" << std::endl
+			<< "'b' Bear" << std::endl;
+		std::cin >> input;
+		std::cout << animalScream(static_cast<Animal>(input)) << std::endl << std::endl;
+	}
+
+	return NULL;
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
