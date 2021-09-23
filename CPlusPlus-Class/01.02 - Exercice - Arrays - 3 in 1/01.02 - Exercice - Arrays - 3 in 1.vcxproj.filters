@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Formative 01.02.cpp">
+    <ClCompile Include="01.02 - Exercice - Arrays - 3 in 1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

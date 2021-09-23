@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Exercice 02 Arrays.cpp">
+    <ClCompile Include="01.02 - Exercice - Enum - Animals.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{9612ac0a-29fc-4824-b82a-f0782f5ea5e5}</ProjectGuid>
-    <RootNamespace>Formative0102EnumAnimals</RootNamespace>
+    <ProjectGuid>{7f6722e8-69b1-4a9c-bdea-184195b175f1}</ProjectGuid>
+    <RootNamespace>My0102ExerciceArrays3in1</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Formative 01.02 - Enum Animals.cpp" />
+    <ClCompile Include="01.02 - Exercice - Arrays - 3 in 1.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

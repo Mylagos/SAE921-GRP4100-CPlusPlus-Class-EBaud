@@ -8,7 +8,7 @@ int bestScore()
 {
 	int highestNumber = 0;
 	int myArray[5]{};
-	for(int i = 0; i < 5; i++)
+	for (int i = 0; i < 5; i++)
 	{
 		myArray[i] = (rand() % 100 + 1);
 		std::cout << myArray[i] << std::endl;
@@ -17,7 +17,7 @@ int bestScore()
 			highestNumber = myArray[i];
 		}
 	}
-	std::cout << std::endl  << "The highest number in that array is " << highestNumber << "." << std::endl << std::endl;
+	std::cout << std::endl << "The highest number in that array is " << highestNumber << "." << std::endl << std::endl;
 	//for (int i = 0; i < myArray.size(); i++)
 	return NULL;
 }
@@ -43,11 +43,11 @@ int inputInRandomArray()
 
 	if (condition == true)
 	{
-		std::cout << std::endl  << "Your number is in that array!" << std::endl << std::endl;
+		std::cout << std::endl << "Your number is in that array!" << std::endl << std::endl;
 	}
-	else 
+	else
 	{
-		std::cout << std::endl  << "Your number does not appear to be in that array..." << std::endl << std::endl;
+		std::cout << std::endl << "Your number does not appear to be in that array..." << std::endl << std::endl;
 	}
 	return NULL;
 }
@@ -85,9 +85,9 @@ int multiplicationTable()
 	for (int i = 0; i < 10; i++)
 	{
 		std::cout << centerText(tableY[i]) << (tableY[i]);
-		for (int ib = 0; ib < 10; ib++) 
+		for (int ib = 0; ib < 10; ib++)
 		{
-			std::cout << centerText(tableX[ib] * (i + 1)) << ( tableX[ib] * ( i + 1 ));
+			std::cout << centerText(tableX[ib] * (i + 1)) << (tableX[ib] * (i + 1));
 		}
 		std::cout << std::endl;
 	}
@@ -112,7 +112,7 @@ int main()
 		switch (b)
 		{
 		case 1:
-			std::cout <<std::endl;
+			std::cout << std::endl;
 			bestScore();
 			break;
 		case 2:
