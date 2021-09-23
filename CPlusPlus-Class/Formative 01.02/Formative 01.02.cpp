@@ -1,20 +1,129 @@
-// Formative 01.02.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include <iostream>
+#include <array>
+
+enum class Suit : int
+{
+	Heart,
+	Diamond,
+	Spade,
+	Club
+};
+
+enum class Value : int
+{
+	Two = 2,
+	Three = 3,
+	Four = 4,
+	Five = 5,
+	Six = 6,
+	Seven = 7,
+	Eight = 8,
+	Nine = 9,
+	Ten = 10,
+	Jack = 11,
+	Queen = 12,
+	King = 13,
+	Ace = 14
+};
+
+struct Card
+{
+	Value value;
+	Suit suit;
+};
+
+std::string printAValue(Value value_)
+{
+	switch (value_)
+	{
+	case Value::Two:
+		return "Two";
+		break;
+	case Value::Three:
+		return "Three";
+		break;
+	case Value::Four:
+		return "Four";
+		break;
+	case Value::Five:
+		return "Five";
+		break;
+	case Value::Six:
+		return "Six";
+		break;
+	case Value::Seven:
+		return "Seven";
+		break;
+	case Value::Eight:
+		return "Eight";
+		break;
+	case Value::Nine:
+		return "Nine";
+		break;
+	case Value::Ten:
+		return "Ten";
+		break;
+	case Value::Jack:
+		return "Jack";
+		break;
+	case Value::Queen:
+		return "Queen";
+		break;
+	case Value::King:
+		return "King";
+		break;
+	case Value::Ace:
+		return "Ace";
+		break;
+	default:
+		break;
+	}
+}
+
+std::string printASuit(Suit suit_)
+{
+	switch (suit_)
+	{
+	case Suit::Heart:
+		return "Heart";
+		break;
+	case Suit::Diamond:
+		return "Diamond";
+		break;
+	case Suit::Spade:
+		return "Spade";
+		break;
+	case Suit::Club:
+		return "Club";
+		break;
+	default:
+		break;
+	}
+}
+
+std::string printACard(Card card_)
+{
+	return printAValue(card_.value) + " of " + printASuit(card_.suit);
+}
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	std::array<Card, 52> deck{};
+	int deckCount = 0;
+
+
+	for (int s{ 0 }; s < 4; s++)
+	{
+		for (int v{ 0 }; v < 13; v++)
+		{
+
+			Card card;
+			card.value = static_cast<Value>(v);
+			card.suit = static_cast<Suit>(s);
+
+			deck.at(deckCount) = card;
+			deckCount++;
+			std::cout << printACard(card) << std::endl;
+		}
+	}
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file

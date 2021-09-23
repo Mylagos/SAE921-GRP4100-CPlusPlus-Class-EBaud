@@ -24,6 +24,7 @@
     <ProjectGuid>{144fdf26-9a6b-4a97-b8b6-991e63e94f09}</ProjectGuid>
     <RootNamespace>Exercice01EnumAnimals</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>01.02 - Exercice - Enum - Animals</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
