@@ -1,5 +1,5 @@
 #include <iostream>
-
+// Takes user's imput into concideration to print out animal noises using ENUM
 enum class Animal : char
 {
 	Lion = 'l',

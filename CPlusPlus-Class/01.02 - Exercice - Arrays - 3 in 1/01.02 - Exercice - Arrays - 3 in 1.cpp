@@ -2,6 +2,9 @@
 #include <random>
 #include <ctime>
 #include <array>
+// 1 Find highest number in a random array
+// 2 Check if in input is in random array
+// 3 Prints out multiplication table
 
 int bestScore()
 // EXERCICE 01

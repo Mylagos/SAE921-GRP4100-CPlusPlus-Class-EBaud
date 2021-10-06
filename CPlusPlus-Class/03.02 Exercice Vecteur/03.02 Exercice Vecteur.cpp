@@ -1,6 +1,7 @@
 #include <iostream>
 #include <random>
 #include <vector>
+// Russian roulette using vectors
 
 int main() 
 {
