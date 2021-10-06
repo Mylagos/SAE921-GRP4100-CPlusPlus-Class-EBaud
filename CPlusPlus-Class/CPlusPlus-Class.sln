@@ -3,14 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.01 - Formative - Dice Rol", "Formative 01.01 Dice Roll\Formative 01.01 Dice Roll.vcxproj", "{D26322DB-E80D-4B94-9A30-367D052CE333}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.02 - Exercice - Enum - Animal", "Exercice 01 Enum Animals\Exercice 01 Enum Animals.vcxproj", "{144FDF26-9A6B-4A97-B8B6-991E63E94F09}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.02 - Formative - Poke", "Formative 01.02\Formative 01.02.vcxproj", "{BA184124-01D1-4A6B-9CF0-DFD7C682D76D}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.02 - Exercice - Arrays - 3 in", "Exercice 02 Arrays\Exercice 02 Arrays.vcxproj", "{04D89B66-1957-49D8-8A49-E78837543452}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.02 - Formative - Poker", "01.02 - Formative - Poker\01.02 - Formative - Poker.vcxproj", "{B645186D-5FC6-487E-BE8F-3E07273DD37C}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.02 - Exercice - Enum - Animals", "01.02 - Exercice - Enum - Animals\01.02 - Exercice - Enum - Animals.vcxproj", "{940E27E2-9A7F-4D3A-AE90-AB8ED004082A}"
@@ -18,6 +10,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.02 - Exercice - Arrays - 3 in 1", "01.02 - Exercice - Arrays - 3 in 1\01.02 - Exercice - Arrays - 3 in 1.vcxproj", "{7F6722E8-69B1-4A9C-BDEA-184195B175F1}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.01 - Formative - Dice Roll", "01.01 - Formative - Dice Roll\01.01 - Formative - Dice Roll.vcxproj", "{005084D0-0324-4524-ADE8-0C3A75422FB5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03.02 Exercice Vecteur", "03.02 Exercice Vecteur\03.02 Exercice Vecteur.vcxproj", "{5C08F141-7E86-481B-A631-89D52AECF16E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,38 +21,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D26322DB-E80D-4B94-9A30-367D052CE333}.Debug|x64.ActiveCfg = Debug|x64
-		{D26322DB-E80D-4B94-9A30-367D052CE333}.Debug|x64.Build.0 = Debug|x64
-		{D26322DB-E80D-4B94-9A30-367D052CE333}.Debug|x86.ActiveCfg = Debug|Win32
-		{D26322DB-E80D-4B94-9A30-367D052CE333}.Debug|x86.Build.0 = Debug|Win32
-		{D26322DB-E80D-4B94-9A30-367D052CE333}.Release|x64.ActiveCfg = Release|x64
-		{D26322DB-E80D-4B94-9A30-367D052CE333}.Release|x64.Build.0 = Release|x64
-		{D26322DB-E80D-4B94-9A30-367D052CE333}.Release|x86.ActiveCfg = Release|Win32
-		{D26322DB-E80D-4B94-9A30-367D052CE333}.Release|x86.Build.0 = Release|Win32
-		{144FDF26-9A6B-4A97-B8B6-991E63E94F09}.Debug|x64.ActiveCfg = Debug|x64
-		{144FDF26-9A6B-4A97-B8B6-991E63E94F09}.Debug|x64.Build.0 = Debug|x64
-		{144FDF26-9A6B-4A97-B8B6-991E63E94F09}.Debug|x86.ActiveCfg = Debug|Win32
-		{144FDF26-9A6B-4A97-B8B6-991E63E94F09}.Debug|x86.Build.0 = Debug|Win32
-		{144FDF26-9A6B-4A97-B8B6-991E63E94F09}.Release|x64.ActiveCfg = Release|x64
-		{144FDF26-9A6B-4A97-B8B6-991E63E94F09}.Release|x64.Build.0 = Release|x64
-		{144FDF26-9A6B-4A97-B8B6-991E63E94F09}.Release|x86.ActiveCfg = Release|Win32
-		{144FDF26-9A6B-4A97-B8B6-991E63E94F09}.Release|x86.Build.0 = Release|Win32
-		{BA184124-01D1-4A6B-9CF0-DFD7C682D76D}.Debug|x64.ActiveCfg = Debug|x64
-		{BA184124-01D1-4A6B-9CF0-DFD7C682D76D}.Debug|x64.Build.0 = Debug|x64
-		{BA184124-01D1-4A6B-9CF0-DFD7C682D76D}.Debug|x86.ActiveCfg = Debug|Win32
-		{BA184124-01D1-4A6B-9CF0-DFD7C682D76D}.Debug|x86.Build.0 = Debug|Win32
-		{BA184124-01D1-4A6B-9CF0-DFD7C682D76D}.Release|x64.ActiveCfg = Release|x64
-		{BA184124-01D1-4A6B-9CF0-DFD7C682D76D}.Release|x64.Build.0 = Release|x64
-		{BA184124-01D1-4A6B-9CF0-DFD7C682D76D}.Release|x86.ActiveCfg = Release|Win32
-		{BA184124-01D1-4A6B-9CF0-DFD7C682D76D}.Release|x86.Build.0 = Release|Win32
-		{04D89B66-1957-49D8-8A49-E78837543452}.Debug|x64.ActiveCfg = Debug|x64
-		{04D89B66-1957-49D8-8A49-E78837543452}.Debug|x64.Build.0 = Debug|x64
-		{04D89B66-1957-49D8-8A49-E78837543452}.Debug|x86.ActiveCfg = Debug|Win32
-		{04D89B66-1957-49D8-8A49-E78837543452}.Debug|x86.Build.0 = Debug|Win32
-		{04D89B66-1957-49D8-8A49-E78837543452}.Release|x64.ActiveCfg = Release|x64
-		{04D89B66-1957-49D8-8A49-E78837543452}.Release|x64.Build.0 = Release|x64
-		{04D89B66-1957-49D8-8A49-E78837543452}.Release|x86.ActiveCfg = Release|Win32
-		{04D89B66-1957-49D8-8A49-E78837543452}.Release|x86.Build.0 = Release|Win32
 		{B645186D-5FC6-487E-BE8F-3E07273DD37C}.Debug|x64.ActiveCfg = Debug|x64
 		{B645186D-5FC6-487E-BE8F-3E07273DD37C}.Debug|x64.Build.0 = Debug|x64
 		{B645186D-5FC6-487E-BE8F-3E07273DD37C}.Debug|x86.ActiveCfg = Debug|Win32
@@ -91,6 +53,14 @@ Global
 		{005084D0-0324-4524-ADE8-0C3A75422FB5}.Release|x64.Build.0 = Release|x64
 		{005084D0-0324-4524-ADE8-0C3A75422FB5}.Release|x86.ActiveCfg = Release|Win32
 		{005084D0-0324-4524-ADE8-0C3A75422FB5}.Release|x86.Build.0 = Release|Win32
+		{5C08F141-7E86-481B-A631-89D52AECF16E}.Debug|x64.ActiveCfg = Debug|x64
+		{5C08F141-7E86-481B-A631-89D52AECF16E}.Debug|x64.Build.0 = Debug|x64
+		{5C08F141-7E86-481B-A631-89D52AECF16E}.Debug|x86.ActiveCfg = Debug|Win32
+		{5C08F141-7E86-481B-A631-89D52AECF16E}.Debug|x86.Build.0 = Debug|Win32
+		{5C08F141-7E86-481B-A631-89D52AECF16E}.Release|x64.ActiveCfg = Release|x64
+		{5C08F141-7E86-481B-A631-89D52AECF16E}.Release|x64.Build.0 = Release|x64
+		{5C08F141-7E86-481B-A631-89D52AECF16E}.Release|x86.ActiveCfg = Release|Win32
+		{5C08F141-7E86-481B-A631-89D52AECF16E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
