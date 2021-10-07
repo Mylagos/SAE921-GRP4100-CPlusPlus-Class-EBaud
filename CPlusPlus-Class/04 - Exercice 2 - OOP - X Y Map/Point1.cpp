@@ -1,10 +1,13 @@
-#include "Point.h"
+#include "..\04 - Exercice 5 - OOP - Operator\Point.h"
+#include "..\04 - Exercice 5 - OOP - Operator\Point.h"
+#include "Point1.h"
 
 Point::Point(int x, int y)
 {
 	this->x_ = x;
 	this->y_ = y;
 }
+
 
 int Point::print()
 {

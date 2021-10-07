@@ -15,15 +15,45 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="04 - Exercice 2 - OOP - X Y Map.cpp">
+    <ClCompile Include="04 - Exercice 6 - OOP - Inheritance.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Point1.cpp">
+    <ClCompile Include="Vehicule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WheelVehicule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FlightVehicule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Car.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Truck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Plane.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Point1.h">
+    <ClInclude Include="Vehicule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WheelVehicule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FlightVehicule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Car.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Truck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

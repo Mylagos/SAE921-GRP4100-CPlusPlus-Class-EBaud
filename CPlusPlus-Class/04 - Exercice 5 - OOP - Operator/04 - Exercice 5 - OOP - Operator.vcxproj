@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{2e839424-679d-42b3-9700-a0572a36c0a8}</ProjectGuid>
-    <RootNamespace>My04Exercice2OOPXYMap</RootNamespace>
+    <ProjectGuid>{ffd667a1-b36d-4d12-8ce1-1fb25ffa1d01}</ProjectGuid>
+    <RootNamespace>My04Exercice5OOPOperator</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,11 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="04 - Exercice 2 - OOP - X Y Map.cpp" />
-    <ClCompile Include="Point1.cpp" />
+    <ClCompile Include="04 - Exercice 5 - OOP - Operator.cpp" />
+    <ClCompile Include="Point.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Point1.h" />
+    <ClInclude Include="Point.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

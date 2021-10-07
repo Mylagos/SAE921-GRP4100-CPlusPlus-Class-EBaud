@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{2e839424-679d-42b3-9700-a0572a36c0a8}</ProjectGuid>
-    <RootNamespace>My04Exercice2OOPXYMap</RootNamespace>
+    <ProjectGuid>{b1a801f7-e864-41ed-a352-e521416a7e85}</ProjectGuid>
+    <RootNamespace>My04Exercice6OOPInheritance</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,11 +139,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="04 - Exercice 2 - OOP - X Y Map.cpp" />
-    <ClCompile Include="Point1.cpp" />
+    <ClCompile Include="04 - Exercice 6 - OOP - Inheritance.cpp" />
+    <ClCompile Include="Car.cpp" />
+    <ClCompile Include="FlightVehicule.cpp" />
+    <ClCompile Include="Plane.cpp" />
+    <ClCompile Include="Truck.cpp" />
+    <ClCompile Include="Vehicule.cpp" />
+    <ClCompile Include="WheelVehicule.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Point1.h" />
+    <ClInclude Include="Car.h" />
+    <ClInclude Include="FlightVehicule.h" />
+    <ClInclude Include="Plane.h" />
+    <ClInclude Include="Truck.h" />
+    <ClInclude Include="Vehicule.h" />
+    <ClInclude Include="WheelVehicule.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
